@@ -23,7 +23,7 @@ The goal is to develop a predictive model using Deep Learning to forecast NFL pl
 - **Source**: Data was acquired from [Pro Football Reference](https://www.pro-football-reference.com/)
 - **Time Period**: 2018 through 2023 NFL seasons
 - **Features**: Include Yards/Play, Net Yards/Pass Attempt, Total Turnovers for Offense/Defense, Penalties Committed by Offense/Defense, and more
-- **Target Variable**: "Made_Playoffs" variable was appended from NFL playoff birth data for 2018-2023
+- **Target Variable**: "Made_Playoffs" variable was appended from NFL playoff berth data for 2018-2023
 
 <img width="522" alt="Screenshot 2024-10-11 at 2 18 05 PM" src="https://github.com/user-attachments/assets/f04474c9-2f22-443e-8b48-92ca87f233e2">
 
@@ -92,7 +92,7 @@ This model performed best, compared to other more complex models, in terms of te
 
 ## Results
 - The model effectively predicts playoff probabilities for NFL teams
-- Once playoff probabilities calculated from the model were calculated, the probablities were appended back to the correct teams in their respective year
+- Once playoff probabilities calculated from the model were calculated, the probabilities were appended back to the correct teams in their respective year
 - Consistent with real-world outcomes (e.g., Kansas City Chiefs' high average playoff probability)
 - Captures nuances of team performance, with some exceptions (e.g., 2023 Pittsburgh Steelers)
 
